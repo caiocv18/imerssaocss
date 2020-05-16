@@ -6,20 +6,19 @@
 }
 
 body{
-    background-color: black;
+    background-image: url("file:///C:/Users/caiov/Google Drive/Cursos/Alura/Imersao-CSS/img/galaxia.jpg");
+    background-size: auto 100vh;
+    height: 100vh;
     font-family: Tahoma;
-    background-image: url("../img/galaxia.jpg");
 }
+
+
+/* filter: blur(3px);
+-webkit-filter: blur(3px); */
 
 header{
     height: 100vh;
-}
-
-background-image{
-    background-size: auto 100vh;
-    height: 100vh;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    display: flex;
 }
 
 .menu{
@@ -46,7 +45,7 @@ a:hover{
 
 .site-subtitle,
 .site-title{
-    color: whitesmoke;
+    color: deepskyblue;
     text-align: center;
 }
 
